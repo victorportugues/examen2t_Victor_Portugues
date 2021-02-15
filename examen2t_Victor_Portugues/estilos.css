@@ -2,17 +2,34 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: rgb(0, 0, 59);
-    background-color: #91ffa9;
+    background-color: #d3ffdc;
     margin-left: 40px;
     margin-right: 40px;
+}
+header{
+    font-family: 'Courier New', Courier, monospace;}
+nav{
+    width: 480px;
+    float: left;
+    color: black;
+    background-color: white;
+}
+main{
     text-align: justify;
 }
-#logo{
-    height: 150px;
-    float: right;
-    border-radius: 0px 0px 0px 0px;
+article{
+    font-style: italic;
+}
+section{
+    border: dotted black 1px;
+}
+footer{
+    padding: 10px;
+    background-color: white;
+    text-align: center;
 }
 h1{
+    text-align: center;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
@@ -22,20 +39,23 @@ h1{
 h2{
     font-style: italic;
 }
-nav{
-    padding: 2px;
-    color: black;
-    background-color: white;
-}
-.enlace{
-    float: left;
+a{
+    text-decoration: none;
+    background-color: #91ffa9;
 }
 a:hover{
     background-color: red;
     color: yellow;
 }
+img{
+    border-radius: 80px 80px 80px 80px;
+    height: 200px;
+}
 .principal{
     font-family: 'Lexend Mega', sans-serif;
+}
+#headerarticulo{
+    margin-top: 150px;
 }
 #resumen{
     font-family: 'Lobster', cursive;
@@ -45,23 +65,14 @@ a:hover{
     padding-left: 40px;
     padding-right: 40px;
 }
-img{
-    border-radius: 40px 40px 40px 40px;
-}
-.imagen{
-    height: 350px;
-}
-a{
-    text-decoration: none;
-    background-color: #91ffa9;
+#logo{
+    height: 96px;
+    float: right;
+    border-radius: 0px;
 }
 #nombre{
+    text-align: left;
     font-size: 15px;
     font-family: 'Lexend Mega', sans-serif;
     text-decoration: overline;
-}
-footer{
-    padding: 10px;
-    background-color: white;
-    text-align: center;
 }
